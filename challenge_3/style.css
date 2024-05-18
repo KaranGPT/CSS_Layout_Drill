@@ -1,0 +1,25 @@
+body {
+    height: 1000px;
+    margin: 0;
+}
+
+div {
+    background-color: #000; /* Black */
+    color: #fff; /* White */
+}
+
+.div1 {
+    background-color: #3a3a3c; /* Slightly lighter gray */
+    height: 300px;
+    width: 300px;
+    margin: 20px auto 0; /* Top margin, auto left/right, no bottom margin */
+    position: relative; /* Allows positioning child elements */
+}
+
+.div2 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
