@@ -1,0 +1,33 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+div {
+    background-color: #000; /* Black */
+    color: white;
+}
+
+.div1 {
+    height: 500px;
+    width: 250px;
+    background-color: #3a3a3c; /* Dark Gray */
+    float: left;
+}
+
+.div2 {
+    position: absolute;
+    height: 250px;
+    width: 200px;
+    top: 250px;
+    left: 150px;
+}
+
+.div3 {
+    height: 150px;
+    width: 150px;
+    background-color: #a7a9ac; /* Light Gray */
+    position: absolute;
+    top: 425px;
+    left: 100px;
+}
