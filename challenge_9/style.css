@@ -1,0 +1,31 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+div {
+    background-color: black;
+    color: white;
+    height: 200px;
+    width: 200px;
+}
+
+.div1 {
+    width: 300px;
+    height: 600px;
+    position: relative;
+    background-color: #3a3a3c;
+    float: left;
+}
+
+.div2 {
+    position: absolute;
+    top: 0;
+    left: 50px;
+}
+
+.div3 {
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+}
